@@ -1,3 +1,8 @@
+@font-face {
+    font-family: buttermilk;
+    src: url(./Radley-Regular.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +12,10 @@
 .container{
     display: flex;
     flex-direction: column;
-    background: url(./retrowave-tron-grid-9k-1920x1080.jpg)
+    background: url(./retrowave-tron-grid-9k-1920x1080.webp)
+}
+.container p{
+   font-family: buttermilk;
 }
 .item1, .item3{
     background: rgb(27, 98, 27);
