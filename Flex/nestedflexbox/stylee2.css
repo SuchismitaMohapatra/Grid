@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: url(./retrowave-tron-grid-9k-1920x1080.jpg)
+}
+.item1, .item3{
+    background: rgb(27, 98, 27);
+    padding: 20px;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+
+}
+.item2{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(255, 255, 255,0.275);
+    padding: 20px;
+    color: #020101;
+    margin: 10px ;
+    min-height: 70vh;
+}
+.box1{
+    background: rgb(128, 246, 128);
+    padding: 20px;
+    margin: 10px ;
+    flex:2 1 400px;
+    
+}
+.box2{
+    background: rgb(245, 251, 66);
+    padding: 20px;
+    margin: 10px ;
+    flex: 1;
+}
+.box2-item1, .box2-item2{
+    background: rgb(151, 254, 245);
+    padding: 20px;
+    margin: 20px 10px ;
+    flex: 1;
+}
+
+.box2-item1 ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 8px 0;
+}
